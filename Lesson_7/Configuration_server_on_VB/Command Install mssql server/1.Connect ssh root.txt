@@ -1,0 +1,12 @@
+--------Install SSH-----------------
+sudo apt-get install openssh-server
+sudo service ssh status
+ssh localhost
+sudo nano /etc/ssh/sshd_config
+PermitRootLogin yes
+sudo service ssh restart
+sudo passwd
+
+------Тепер можна конектитися через моду із рута------
+ifconfig
+ip addr show

@@ -1,0 +1,7 @@
+﻿Use transactions in your project when placing an order.
+When ordering a product, the quantity that is available changes.
+1. Place an order - the order status becomes 
+(new order - just formed, 
+corrected - sent to the sender).
+
+

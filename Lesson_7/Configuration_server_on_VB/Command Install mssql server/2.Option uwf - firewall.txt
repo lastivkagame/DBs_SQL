@@ -1,0 +1,5 @@
+3.-------------”становка простого брандмауэра-----------------
+ufw app list
+ufw allow OpenSSH
+ufw enable
+ufw status

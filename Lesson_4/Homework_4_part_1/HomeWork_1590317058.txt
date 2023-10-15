@@ -1,0 +1,11 @@
+На основі запиту 
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT o.Id, c.Name as CustomerName, e.FirstName+' '+e.LastName as EmployeeName, s.Name as Dostavka
+FROM tblOrders as o, tblCustomers as c, tblEmployees as e, tblShippers as s
+Where o.CustomerId=c.Id and o.EmployeeId=e.Id and o.ShipperId=s.Id
+
+Зробити запит з використаням INNER JOIN
+https://stackoverflow.com/questions/53949197/isnt-sql-a-left-join-b-just-a/53949327
+
+Вказати коли неохідно використовувати об'єднання LEFT JOIN або RIGHT JOIN
+Навести приклад.

@@ -1,0 +1,13 @@
+version: '3'
+ 
+services:
+   mssql:
+    image: microsoft/mssql-server-linux
+    volumes:
+      - ./mssql:/var/opt/mssql
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Qwerty1-
+    ports:
+      - "1433:1433"
+    restart: always

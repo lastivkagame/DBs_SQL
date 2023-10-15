@@ -1,0 +1,8 @@
+-------copy folder mssql to remote VPS-------------
+---------cd in folder mssql-----------------------------------
+--start--
+docker-compose up -d
+--stop--
+docker-compose stop
+--remove--
+docker-compose rm -f

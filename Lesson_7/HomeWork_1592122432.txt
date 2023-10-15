@@ -1,0 +1,3 @@
+﻿Configure mssql server on a remote VPS server
+you can take a Virtual Box
+Test the connection.
